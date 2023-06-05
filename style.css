@@ -1,0 +1,189 @@
+.navbar {
+  border-radius: 10px;
+}
+
+body{
+  background-color: #D9DBBC;
+  
+}
+
+.jumbotron {
+  background-image: url(3.jpg);
+  background-attachment: fixed;
+  background-position-y: 50%;
+  background-size: cover;
+  color: white;
+  text-shadow: black;
+  height: 550px;
+  background-color: #B8D8BA;
+}
+
+.kartu{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgba(255, 249, 249, 0.788);
+    border-radius: 20px;
+}
+
+#carouselExampleIndicators{
+  border-radius: 20px;
+}
+
+img{
+  border-radius: 20px;
+}
+
+.tulis{
+  padding-top: 150px;
+}
+
+.col a{
+   font-size: 13px;
+}
+
+.card img{
+  border-radius: 25px;
+}
+
+.services{
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.575);
+  max-width: 2100px;
+  padding: 40px;
+}
+
+.zero{
+  height: 50px;
+}
+
+.zero p{
+  margin-top: -60px;
+}
+
+nav {
+  max-width: 890px;
+  min-width: 20px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.btn {
+  border-radius: 100px;
+  font-size: 10px;
+}
+
+.form-control {
+  border-radius: 40px;
+}
+
+.card{
+  border-radius: 20px;
+}
+
+li{
+  margin-right: 25px;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  padding: 5px 12px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+label::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 80%;
+  background-color: rgb(253, 127, 105);;
+  -webkit-transition: all 1s ease 0.5s;
+  transition: all 1s ease 0.5s;
+}
+label input {
+  z-index: -1;
+  -webkit-transition: width 1s ease, opacity 0.5s ease 0.5s;
+  transition: width 1s ease, opacity 0.5s ease 0.5s;
+  opacity: 1;
+  width: 180px;
+  height: 25px;
+  border: 2px;
+  border-radius: 40px;
+  outline: none;
+  color: black;
+}
+
+.card-title i{
+  font-size: 30px;
+  color: #8eb991;
+  margin: 25px;
+}
+label i {
+  position: absolute;
+  font-size: 15px;
+  top: 10px;
+  right: 12px;
+  color: #333;
+  cursor: pointer;
+}
+label[data-state='close'] {
+  padding: 5px 5px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+label[data-state='close']::after {
+  width: 0%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+label[data-state='close'] i {
+  pointer-events: none;
+}
+label[data-state='close'] input {
+  border-radius: 20px;
+  width: 28px;
+  height: 25px;
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transition: opacity 0.5s ease, width 1s ease;
+  transition: opacity 0.5s ease, width 1s ease;
+  -webkit-appearance: none;
+}
+
+.card-text{
+  color: black;
+}
+
+@media screen and (max-width: 1250px) {
+  #services .row{
+    max-width: 700px;
+    margin-left: 12%;
+    
+  }
+  
+  li{
+    margin: 0px;
+  }
+  .services{
+   padding: 0px;
+ }
+  .zero p{
+   margin-top: 0px;
+ }
+}
+
+@media screen and (max-width: 991px) {
+   li{
+     margin: 0px;
+   }
+   #services .row{
+    padding: 0px;
+    margin: 0px;
+  }
+   .zero p{
+    margin-top: 0px;
+  }
+}
