@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Tips Wisata | Profile</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/0ac2a089e1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light text-center ms-auto me-auto mt-3 fixed-top" style="background-color: white;">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Tips wisata <i class="fa-solid fa-map-location-dot"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"></a>
+                </li>
+              </ul>
+            <form id="app" action="#">
+              <label :data-state="state" for="search">
+                <input type="text" placeholder="Search" @click="state = 'opan'" @blur="state='close'" />
+                <i class="fa fa-search" @click="" aria-hidden="true"></i>
+              </label>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--Akhir Navbar-->
+
+    <!--About-->
+    <div class="jumbotron text-center">
+      <div class="tulis text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col">
+              <h1 class="display-4" style="color: #fffff9;">
+                TIPS<br>WISATA <br><br>
+              </h1>
+             </div>
+          </div>
+          <div class="kartu">
+            <div class="row text-center justify-content-center">
+            </div>
+          </div>
+          <!--Akhir About-->
+
+          <!--Services-->
+          <div class="services" id="services">
+            <div class="container">
+              <div class="row">
+                
+                <div class="kontenwisata" style="color: black; font-family: serif;">
+                  <p>
+                    <h5 class="fs-2 mb-3">1. Survey Lokasi Liburan <i class="fa-solid fa-magnifying-glass"></i></h5>
+                   Sebelum pergi berlibur, kamu harus menentukan kemana kamu akan pergi. Untuk memastikan bahwa tempat yang kamu ingin datangi itu cocok dengan ekspetasi kamu tentang
+                   liburan atau tidak. Survei bisa dilakukan melalui internet, buku-buku wisata, atau brosur dari agen travel. Selain itu, dengan melakukan survei kamu bisa mulai menghitung kisaran uang
+                   yang kamu butuhkan untuk berlibur ke tempat yang kamu tuju, dan juga kamu bisa mengetahui jika ada promosi atau diskon sehingga kemauan kamu untuk berhemat menjadi lebih mudah.
+                </p>
+                </div>
+
+                <div class="kontenwisata" style="color: black; font-family: serif;">
+                    <p>
+                     <h5 class="fs-2 mb-3">2. Pemesanan dari Jauh Hari <i class="fa-sharp fa-solid fa-envelope"></i></h5>
+                     Setelah melakukan survei dan sudah menentukan tempat tujuan kamu, sekarang kamu harus mulai memesan tiket transportasi, tempat penginapan, atau bahkan jika ada tiket tempat
+                     wisata di lokasi. Biasanya jika pemesanan dilakukan dari lama sebelum hari H, kamu akan mendapatkan harga spesial yang lebih murah atau kamu bisa mendapatkan penawaran-penawaran 
+                     menarik lainnya selama kamu berlibur.
+                  </p>
+                  </div>
+
+                  <div class="kontenwisata" style="color: black; font-family: serif;">
+                    <p>
+                     <h5 class="fs-2 mb-3">3. Tidak Pergi dimusim Liburan <i class="fa-solid fa-car-side"></i> <i class="fa-solid fa-x"></i></i></h5>
+                     Di kebanyakan tempat wisata, harga pada saat musim liburan atau high season akan lebih mahal daripada ketika di musim biasa atau low season. Oleh karena itu, kamu akan bisa
+                     lebih berhemat jika pergi sebelum atau sesudah musim liburan. Selain itu, kamu dapat lebih leluasa jika pergi disaat tidak musim liburan, karena biasanya lebih sepi, jadi kamu bisa lebih
+                     menikmati liburan kamu.
+                  </p>
+                  </div>
+
+                  <div class="kontenwisata" style="color: black; font-family: serif;">
+                    <p>
+                     <h5 class="fs-2 mb-3">4. Utamakan Kenyamanan <i class="fa-solid fa-people-robbery"></i></h5>
+                     Lupakan tentang liburan mewah jika kamu mau berhemat. Namun jangan sampai kamu sangat berhemat, liburan menjadi tidak nyaman. Utamakan kenyamanan kamu, baik
+                     dalam memilih transportasi, tempat tinggal, atau pemandu liburan. Asalkan nyaman, semua pasti akan sangat senang. Dan pastinya akan lebih menyenangkan lagi jika kamu bisa liburan
+                     dengan nyaman, mewah, tapi murah. Mungkin sih tapi jarang.
+                  </p>
+                  </div>
+
+                </div>
+                
+                <br><br><br><br><br><br>
+
+
+            </div>
+          </div>
+        </div>
+      </div>  
+      
+      <footer class="zero text-center justify-content-center mt-5" style="color: black;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,0L26.7,0C53.3,0,107,0,160,5.3C213.3,11,267,21,320,64C373.3,107,427,181,480,192C533.3,203,587,149,640,117.3C693.3,85,747,75,800,96C853.3,117,907,171,960,165.3C1013.3,160,1067,96,1120,106.7C1173.3,117,1227,203,1280,197.3C1333.3,192,1387,96,1413,48L1440,0L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+        <p style="background-color:#f3f4f5;">Created With Bootstrap | by.<a style="color: black; text-decoration: none;"> Mohammad Tegar Ibrahim</a></p>
+      </footer>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      var app = new Vue({
+        el: '#app',
+        data: { state: 'close' },
+      });
+    </script>
+</body>
+</html>
